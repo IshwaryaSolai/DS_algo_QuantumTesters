@@ -30,7 +30,7 @@ private static ArrayPageObjects arrayPageObjects;
 	By arraysinpythonBtn    = By.xpath("//a[@href='arrays-in-python']");
 	By tryhereBtn           = By.partialLinkText("Try here");
 	//By editorbox            = By.xpath("//form[@id='answer_form']/div/div/div/textarea");
-	By editorbox 					  = By.xpath("//textarea[@autocorrect='off']");
+	By editorbox 		    = By.xpath("//textarea[@autocorrect='off']");
 	By runBtn               = By.xpath("//button[@type='button']");
 	By console              = By.xpath("//pre[@id='output']");
 	By arraysusinglist      = By.xpath("//a[contains(text(),'Arrays Using List')]");

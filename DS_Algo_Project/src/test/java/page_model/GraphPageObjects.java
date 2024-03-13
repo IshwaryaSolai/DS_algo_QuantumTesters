@@ -32,7 +32,7 @@ public class GraphPageObjects {
 	By Graphlink = By.xpath("//a[@href = 'graph']");
 	By try_here = By.xpath("//a[@class='btn btn-info']");
 	//By textbox = By.xpath("//form[@id='answer_form']/div/div/div/textarea");
-	By textbox 					  = By.xpath("//textarea[@autocorrect='off']");
+	By textbox 	 = By.xpath("//textarea[@autocorrect='off']");
 	By run = By.xpath("//button[text() = 'Run']");
 	By output 			= By.xpath("//pre[@id='output']");
 	By graphrepresentation = By.xpath("//a[text() = 'Graph Representations']");
