@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="64" passed="0" failed="64" skipped="0">
+<testng-results ignored="0" total="64" passed="64" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-13T19:49:34 EDT" name="Default suite" finished-at="2024-03-13T19:50:29 EDT" duration-ms="55352">
+  <suite started-at="2024-03-13T20:03:08 EDT" name="Default suite" finished-at="2024-03-13T20:05:16 EDT" duration-ms="128837">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@361c294e]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@585811a4]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2024-03-13T19:49:34 EDT" name="Default test" finished-at="2024-03-13T19:50:29 EDT" duration-ms="55352">
+    <test started-at="2024-03-13T20:03:08 EDT" name="Default test" finished-at="2024-03-13T20:05:16 EDT" duration-ms="128837">
       <class name="runner.TestNGRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.TestNGRunner@361c294e]" started-at="2024-03-13T19:49:34 EDT" name="setUpClass" finished-at="2024-03-13T19:49:35 EDT" duration-ms="543" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.TestNGRunner@585811a4]" started-at="2024-03-13T20:03:08 EDT" name="setUpClass" finished-at="2024-03-13T20:03:08 EDT" duration-ms="603" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@43a0a32d]]>
+                <![CDATA[org.testng.TestRunner@4dde8976]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@361c294e]" started-at="2024-03-13T19:49:35 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T19:49:44 EDT" duration-ms="9650" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@585811a4]" started-at="2024-03-13T20:03:08 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T20:03:23 EDT" duration-ms="14549" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -34,52 +34,10 @@
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.base/java.util.Objects.requireNonNull(Objects.java:233)
-at java.base/java.util.ImmutableCollections$Map1.<init>(ImmutableCollections.java:1112)
-at java.base/java.util.Map.of(Map.java:1365)
-at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
-at stepdefinitions.Register.given_ther_user_is_on_the_home_page(Register.java:20)
-at ✽.given the user is on the home page(file:///C:/Users/ishwa/git/DS_ALGO/DS_Algo_Project/src/test/resources/features/1Register.feature:28)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@361c294e]" started-at="2024-03-13T19:49:35 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T19:49:45 EDT" duration-ms="10022" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify Arrays in Python link redirects to Arrays in Python page."]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Testing the Array Page"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.base/java.util.Objects.requireNonNull(Objects.java:233)
-at java.base/java.util.ImmutableCollections$Map1.<init>(ImmutableCollections.java:1112)
-at java.base/java.util.Map.of(Map.java:1365)
-at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
-at stepdefinitions.Common_Step_Def.login(Common_Step_Def.java:20)
-at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@361c294e]" started-at="2024-03-13T19:49:35 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T19:49:44 EDT" duration-ms="9646" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@585811a4]" started-at="2024-03-13T20:03:08 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T20:03:30 EDT" duration-ms="21742" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -92,197 +50,10 @@ at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.base/java.util.Objects.requireNonNull(Objects.java:233)
-at java.base/java.util.ImmutableCollections$Map1.<init>(ImmutableCollections.java:1112)
-at java.base/java.util.Map.of(Map.java:1365)
-at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
-at stepdefinitions.Register.given_ther_user_is_on_the_home_page(Register.java:20)
-at ✽.given the user is on the home page(file:///C:/Users/ishwa/git/DS_ALGO/DS_Algo_Project/src/test/resources/features/1Register.feature:36)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@361c294e]" started-at="2024-03-13T19:49:35 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T19:49:45 EDT" duration-ms="9803" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["The user tries to Register"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Registration process of the user"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.base/java.util.Objects.requireNonNull(Objects.java:233)
-at java.base/java.util.ImmutableCollections$Map1.<init>(ImmutableCollections.java:1112)
-at java.base/java.util.Map.of(Map.java:1365)
-at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
-at stepdefinitions.Register.given_ther_user_is_on_the_home_page(Register.java:20)
-at ✽.given the user is on the home page(file:///C:/Users/ishwa/git/DS_ALGO/DS_Algo_Project/src/test/resources/features/1Register.feature:52)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@361c294e]" started-at="2024-03-13T19:49:35 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T19:49:44 EDT" duration-ms="9654" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["The user tries to Register"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Registration process of the user"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.base/java.util.Objects.requireNonNull(Objects.java:233)
-at java.base/java.util.ImmutableCollections$Map1.<init>(ImmutableCollections.java:1112)
-at java.base/java.util.Map.of(Map.java:1365)
-at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
-at stepdefinitions.Register.given_ther_user_is_on_the_home_page(Register.java:20)
-at ✽.given the user is on the home page(file:///C:/Users/ishwa/git/DS_ALGO/DS_Algo_Project/src/test/resources/features/1Register.feature:21)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@361c294e]" started-at="2024-03-13T19:49:35 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T19:49:44 EDT" duration-ms="9649" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["The user tries to Register"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Registration process of the user"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.base/java.util.Objects.requireNonNull(Objects.java:233)
-at java.base/java.util.ImmutableCollections$Map1.<init>(ImmutableCollections.java:1112)
-at java.base/java.util.Map.of(Map.java:1365)
-at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
-at stepdefinitions.Register.given_ther_user_is_on_the_home_page(Register.java:20)
-at ✽.given the user is on the home page(file:///C:/Users/ishwa/git/DS_ALGO/DS_Algo_Project/src/test/resources/features/1Register.feature:44)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@361c294e]" started-at="2024-03-13T19:49:35 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T19:49:44 EDT" duration-ms="9659" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["The user tries to Register"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Registration process of the user"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.base/java.util.Objects.requireNonNull(Objects.java:233)
-at java.base/java.util.ImmutableCollections$Map1.<init>(ImmutableCollections.java:1112)
-at java.base/java.util.Map.of(Map.java:1365)
-at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
-at stepdefinitions.Register.given_ther_user_is_on_the_home_page(Register.java:20)
-at ✽.given the user is on the home page(file:///C:/Users/ishwa/git/DS_ALGO/DS_Algo_Project/src/test/resources/features/1Register.feature:62)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@361c294e]" started-at="2024-03-13T19:49:35 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T19:49:45 EDT" duration-ms="10040" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["This test is to verify the Registration page"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Registration process of the user"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.base/java.util.Objects.requireNonNull(Objects.java:233)
-at java.base/java.util.ImmutableCollections$Map1.<init>(ImmutableCollections.java:1112)
-at java.base/java.util.Map.of(Map.java:1365)
-at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
-at stepdefinitions.Register.given_ther_user_is_on_the_home_page(Register.java:20)
-at ✽.given the user is on the home page(file:///C:/Users/ishwa/git/DS_ALGO/DS_Algo_Project/src/test/resources/features/1Register.feature:8)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@361c294e]" started-at="2024-03-13T19:49:35 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T19:49:46 EDT" duration-ms="10945" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify user is able to navigate into DS_Algo Array Page"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Testing the Array Page"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.base/java.util.Objects.requireNonNull(Objects.java:233)
-at java.base/java.util.ImmutableCollections$Map1.<init>(ImmutableCollections.java:1112)
-at java.base/java.util.Map.of(Map.java:1365)
-at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
-at stepdefinitions.Common_Step_Def.login(Common_Step_Def.java:20)
-at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@361c294e]" started-at="2024-03-13T19:49:35 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T19:49:45 EDT" duration-ms="10059" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@585811a4]" started-at="2024-03-13T20:03:08 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T20:03:23 EDT" duration-ms="14959" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -295,23 +66,122 @@ at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.base/java.util.Objects.requireNonNull(Objects.java:233)
-at java.base/java.util.ImmutableCollections$Map1.<init>(ImmutableCollections.java:1112)
-at java.base/java.util.Map.of(Map.java:1365)
-at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
-at stepdefinitions.Register.given_ther_user_is_on_the_home_page(Register.java:20)
-at ✽.given the user is on the home page(file:///C:/Users/ishwa/git/DS_ALGO/DS_Algo_Project/src/test/resources/features/1Register.feature:13)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@361c294e]" started-at="2024-03-13T19:49:44 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T19:49:54 EDT" duration-ms="9190" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@585811a4]" started-at="2024-03-13T20:03:08 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T20:03:24 EDT" duration-ms="15965" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["The user tries to Register"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Registration process of the user"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@585811a4]" started-at="2024-03-13T20:03:08 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T20:03:23 EDT" duration-ms="14537" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["This test is to verify the Registration page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Registration process of the user"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@585811a4]" started-at="2024-03-13T20:03:08 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T20:03:23 EDT" duration-ms="14706" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Arrays in Python link redirects to Arrays in Python page."]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing the Array Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@585811a4]" started-at="2024-03-13T20:03:08 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T20:03:23 EDT" duration-ms="14685" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["The user tries to Register"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Registration process of the user"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@585811a4]" started-at="2024-03-13T20:03:08 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T20:03:23 EDT" duration-ms="15118" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["The user tries to Register"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Registration process of the user"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@585811a4]" started-at="2024-03-13T20:03:08 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T20:03:38 EDT" duration-ms="30216" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify user is able to navigate into DS_Algo Array Page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing the Array Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@585811a4]" started-at="2024-03-13T20:03:08 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T20:03:23 EDT" duration-ms="14642" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["The user tries to Register"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Registration process of the user"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@585811a4]" started-at="2024-03-13T20:03:23 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T20:03:46 EDT" duration-ms="23459" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -324,23 +194,10 @@ at ✽.given the user is on the home page(file:///C:/Users/ishwa/git/DS_ALGO/DS_
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.base/java.util.Objects.requireNonNull(Objects.java:233)
-at java.base/java.util.ImmutableCollections$Map1.<init>(ImmutableCollections.java:1112)
-at java.base/java.util.Map.of(Map.java:1365)
-at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
-at stepdefinitions.Common_Step_Def.login(Common_Step_Def.java:20)
-at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@361c294e]" started-at="2024-03-13T19:49:44 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T19:49:59 EDT" duration-ms="14541" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@585811a4]" started-at="2024-03-13T20:03:23 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T20:03:38 EDT" duration-ms="15202" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -353,23 +210,10 @@ at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.base/java.util.Objects.requireNonNull(Objects.java:233)
-at java.base/java.util.ImmutableCollections$Map1.<init>(ImmutableCollections.java:1112)
-at java.base/java.util.Map.of(Map.java:1365)
-at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
-at stepdefinitions.Common_Step_Def.login(Common_Step_Def.java:20)
-at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@361c294e]" started-at="2024-03-13T19:49:44 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T19:49:53 EDT" duration-ms="8510" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@585811a4]" started-at="2024-03-13T20:03:23 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T20:03:38 EDT" duration-ms="15329" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -382,23 +226,10 @@ at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.base/java.util.Objects.requireNonNull(Objects.java:233)
-at java.base/java.util.ImmutableCollections$Map1.<init>(ImmutableCollections.java:1112)
-at java.base/java.util.Map.of(Map.java:1365)
-at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
-at stepdefinitions.Common_Step_Def.login(Common_Step_Def.java:20)
-at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@361c294e]" started-at="2024-03-13T19:49:44 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T19:49:52 EDT" duration-ms="7584" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@585811a4]" started-at="2024-03-13T20:03:23 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T20:03:34 EDT" duration-ms="11451" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -411,23 +242,10 @@ at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.base/java.util.Objects.requireNonNull(Objects.java:233)
-at java.base/java.util.ImmutableCollections$Map1.<init>(ImmutableCollections.java:1112)
-at java.base/java.util.Map.of(Map.java:1365)
-at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
-at stepdefinitions.Common_Step_Def.login(Common_Step_Def.java:20)
-at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@361c294e]" started-at="2024-03-13T19:49:44 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T19:49:53 EDT" duration-ms="8527" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@585811a4]" started-at="2024-03-13T20:03:23 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T20:03:46 EDT" duration-ms="22785" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -440,23 +258,10 @@ at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.base/java.util.Objects.requireNonNull(Objects.java:233)
-at java.base/java.util.ImmutableCollections$Map1.<init>(ImmutableCollections.java:1112)
-at java.base/java.util.Map.of(Map.java:1365)
-at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
-at stepdefinitions.Common_Step_Def.login(Common_Step_Def.java:20)
-at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@361c294e]" started-at="2024-03-13T19:49:45 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T19:49:59 EDT" duration-ms="14473" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@585811a4]" started-at="2024-03-13T20:03:23 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T20:03:38 EDT" duration-ms="15037" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -469,23 +274,10 @@ at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.base/java.util.Objects.requireNonNull(Objects.java:233)
-at java.base/java.util.ImmutableCollections$Map1.<init>(ImmutableCollections.java:1112)
-at java.base/java.util.Map.of(Map.java:1365)
-at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
-at stepdefinitions.Common_Step_Def.login(Common_Step_Def.java:20)
-at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@361c294e]" started-at="2024-03-13T19:49:45 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T19:49:54 EDT" duration-ms="9052" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@585811a4]" started-at="2024-03-13T20:03:23 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T20:03:35 EDT" duration-ms="11667" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -498,23 +290,10 @@ at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.base/java.util.Objects.requireNonNull(Objects.java:233)
-at java.base/java.util.ImmutableCollections$Map1.<init>(ImmutableCollections.java:1112)
-at java.base/java.util.Map.of(Map.java:1365)
-at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
-at stepdefinitions.Common_Step_Def.login(Common_Step_Def.java:20)
-at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@361c294e]" started-at="2024-03-13T19:49:45 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T19:49:54 EDT" duration-ms="9039" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@585811a4]" started-at="2024-03-13T20:03:24 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T20:03:38 EDT" duration-ms="14027" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -527,23 +306,10 @@ at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.base/java.util.Objects.requireNonNull(Objects.java:233)
-at java.base/java.util.ImmutableCollections$Map1.<init>(ImmutableCollections.java:1112)
-at java.base/java.util.Map.of(Map.java:1365)
-at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
-at stepdefinitions.Common_Step_Def.login(Common_Step_Def.java:20)
-at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@361c294e]" started-at="2024-03-13T19:49:45 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T19:49:52 EDT" duration-ms="7139" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@585811a4]" started-at="2024-03-13T20:03:30 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T20:03:58 EDT" duration-ms="28418" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -556,23 +322,10 @@ at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.base/java.util.Objects.requireNonNull(Objects.java:233)
-at java.base/java.util.ImmutableCollections$Map1.<init>(ImmutableCollections.java:1112)
-at java.base/java.util.Map.of(Map.java:1365)
-at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
-at stepdefinitions.Common_Step_Def.login(Common_Step_Def.java:20)
-at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@361c294e]" started-at="2024-03-13T19:49:46 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T19:49:53 EDT" duration-ms="7311" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@585811a4]" started-at="2024-03-13T20:03:34 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T20:04:01 EDT" duration-ms="26274" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -585,23 +338,10 @@ at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.base/java.util.Objects.requireNonNull(Objects.java:233)
-at java.base/java.util.ImmutableCollections$Map1.<init>(ImmutableCollections.java:1112)
-at java.base/java.util.Map.of(Map.java:1365)
-at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
-at stepdefinitions.Common_Step_Def.login(Common_Step_Def.java:20)
-at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@361c294e]" started-at="2024-03-13T19:49:52 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T19:49:59 EDT" duration-ms="7062" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@585811a4]" started-at="2024-03-13T20:03:35 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T20:03:50 EDT" duration-ms="14503" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -614,23 +354,10 @@ at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.base/java.util.Objects.requireNonNull(Objects.java:233)
-at java.base/java.util.ImmutableCollections$Map1.<init>(ImmutableCollections.java:1112)
-at java.base/java.util.Map.of(Map.java:1365)
-at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
-at stepdefinitions.Common_Step_Def.login(Common_Step_Def.java:20)
-at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@361c294e]" started-at="2024-03-13T19:49:52 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T19:49:59 EDT" duration-ms="6996" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@585811a4]" started-at="2024-03-13T20:03:38 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T20:03:53 EDT" duration-ms="14637" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -643,23 +370,10 @@ at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.base/java.util.Objects.requireNonNull(Objects.java:233)
-at java.base/java.util.ImmutableCollections$Map1.<init>(ImmutableCollections.java:1112)
-at java.base/java.util.Map.of(Map.java:1365)
-at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
-at stepdefinitions.Common_Step_Def.login(Common_Step_Def.java:20)
-at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@361c294e]" started-at="2024-03-13T19:49:53 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T19:49:59 EDT" duration-ms="6250" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@585811a4]" started-at="2024-03-13T20:03:38 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T20:04:10 EDT" duration-ms="32084" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -672,23 +386,10 @@ at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.base/java.util.Objects.requireNonNull(Objects.java:233)
-at java.base/java.util.ImmutableCollections$Map1.<init>(ImmutableCollections.java:1112)
-at java.base/java.util.Map.of(Map.java:1365)
-at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
-at stepdefinitions.Common_Step_Def.login(Common_Step_Def.java:20)
-at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@361c294e]" started-at="2024-03-13T19:49:53 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T19:49:59 EDT" duration-ms="6214" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@585811a4]" started-at="2024-03-13T20:03:38 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T20:03:52 EDT" duration-ms="14014" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -701,23 +402,10 @@ at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.base/java.util.Objects.requireNonNull(Objects.java:233)
-at java.base/java.util.ImmutableCollections$Map1.<init>(ImmutableCollections.java:1112)
-at java.base/java.util.Map.of(Map.java:1365)
-at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
-at stepdefinitions.Common_Step_Def.login(Common_Step_Def.java:20)
-at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@361c294e]" started-at="2024-03-13T19:49:53 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T19:50:00 EDT" duration-ms="7360" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@585811a4]" started-at="2024-03-13T20:03:38 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T20:04:13 EDT" duration-ms="34950" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -730,23 +418,10 @@ at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.base/java.util.Objects.requireNonNull(Objects.java:233)
-at java.base/java.util.ImmutableCollections$Map1.<init>(ImmutableCollections.java:1112)
-at java.base/java.util.Map.of(Map.java:1365)
-at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
-at stepdefinitions.Common_Step_Def.login(Common_Step_Def.java:20)
-at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@361c294e]" started-at="2024-03-13T19:49:54 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T19:49:59 EDT" duration-ms="5488" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@585811a4]" started-at="2024-03-13T20:03:38 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T20:03:59 EDT" duration-ms="20063" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -759,23 +434,10 @@ at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.base/java.util.Objects.requireNonNull(Objects.java:233)
-at java.base/java.util.ImmutableCollections$Map1.<init>(ImmutableCollections.java:1112)
-at java.base/java.util.Map.of(Map.java:1365)
-at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
-at stepdefinitions.Common_Step_Def.login(Common_Step_Def.java:20)
-at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@361c294e]" started-at="2024-03-13T19:49:54 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T19:49:59 EDT" duration-ms="5430" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@585811a4]" started-at="2024-03-13T20:03:46 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T20:03:58 EDT" duration-ms="12165" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -788,23 +450,10 @@ at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.base/java.util.Objects.requireNonNull(Objects.java:233)
-at java.base/java.util.ImmutableCollections$Map1.<init>(ImmutableCollections.java:1112)
-at java.base/java.util.Map.of(Map.java:1365)
-at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
-at stepdefinitions.Common_Step_Def.login(Common_Step_Def.java:20)
-at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@361c294e]" started-at="2024-03-13T19:49:54 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T19:49:59 EDT" duration-ms="5221" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@585811a4]" started-at="2024-03-13T20:03:46 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T20:04:16 EDT" duration-ms="29583" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -817,23 +466,10 @@ at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.base/java.util.Objects.requireNonNull(Objects.java:233)
-at java.base/java.util.ImmutableCollections$Map1.<init>(ImmutableCollections.java:1112)
-at java.base/java.util.Map.of(Map.java:1365)
-at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
-at stepdefinitions.Common_Step_Def.login(Common_Step_Def.java:20)
-at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@361c294e]" started-at="2024-03-13T19:49:59 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T19:50:07 EDT" duration-ms="8203" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@585811a4]" started-at="2024-03-13T20:03:50 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T20:04:21 EDT" duration-ms="31286" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -846,23 +482,10 @@ at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.base/java.util.Objects.requireNonNull(Objects.java:233)
-at java.base/java.util.ImmutableCollections$Map1.<init>(ImmutableCollections.java:1112)
-at java.base/java.util.Map.of(Map.java:1365)
-at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
-at stepdefinitions.Common_Step_Def.login(Common_Step_Def.java:20)
-at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@361c294e]" started-at="2024-03-13T19:49:59 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T19:50:07 EDT" duration-ms="8333" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@585811a4]" started-at="2024-03-13T20:03:52 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T20:04:08 EDT" duration-ms="15590" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -875,23 +498,10 @@ at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.base/java.util.Objects.requireNonNull(Objects.java:233)
-at java.base/java.util.ImmutableCollections$Map1.<init>(ImmutableCollections.java:1112)
-at java.base/java.util.Map.of(Map.java:1365)
-at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
-at stepdefinitions.Common_Step_Def.login(Common_Step_Def.java:20)
-at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@361c294e]" started-at="2024-03-13T19:49:59 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T19:50:07 EDT" duration-ms="8438" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@585811a4]" started-at="2024-03-13T20:03:53 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T20:04:09 EDT" duration-ms="16107" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -904,23 +514,10 @@ at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.base/java.util.Objects.requireNonNull(Objects.java:233)
-at java.base/java.util.ImmutableCollections$Map1.<init>(ImmutableCollections.java:1112)
-at java.base/java.util.Map.of(Map.java:1365)
-at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
-at stepdefinitions.Common_Step_Def.login(Common_Step_Def.java:20)
-at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@361c294e]" started-at="2024-03-13T19:49:59 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T19:50:07 EDT" duration-ms="7533" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@585811a4]" started-at="2024-03-13T20:03:58 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T20:04:29 EDT" duration-ms="30784" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -933,23 +530,10 @@ at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.base/java.util.Objects.requireNonNull(Objects.java:233)
-at java.base/java.util.ImmutableCollections$Map1.<init>(ImmutableCollections.java:1112)
-at java.base/java.util.Map.of(Map.java:1365)
-at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
-at stepdefinitions.Common_Step_Def.login(Common_Step_Def.java:20)
-at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@361c294e]" started-at="2024-03-13T19:49:59 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T19:50:07 EDT" duration-ms="8110" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@585811a4]" started-at="2024-03-13T20:03:58 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T20:04:09 EDT" duration-ms="10534" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -962,23 +546,10 @@ at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.base/java.util.Objects.requireNonNull(Objects.java:233)
-at java.base/java.util.ImmutableCollections$Map1.<init>(ImmutableCollections.java:1112)
-at java.base/java.util.Map.of(Map.java:1365)
-at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
-at stepdefinitions.Common_Step_Def.login(Common_Step_Def.java:20)
-at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@361c294e]" started-at="2024-03-13T19:49:59 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T19:50:07 EDT" duration-ms="7775" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@585811a4]" started-at="2024-03-13T20:03:59 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T20:04:29 EDT" duration-ms="30237" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -991,23 +562,10 @@ at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.base/java.util.Objects.requireNonNull(Objects.java:233)
-at java.base/java.util.ImmutableCollections$Map1.<init>(ImmutableCollections.java:1112)
-at java.base/java.util.Map.of(Map.java:1365)
-at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
-at stepdefinitions.Common_Step_Def.login(Common_Step_Def.java:20)
-at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@361c294e]" started-at="2024-03-13T19:49:59 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T19:50:07 EDT" duration-ms="7822" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@585811a4]" started-at="2024-03-13T20:04:01 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T20:04:09 EDT" duration-ms="8299" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1020,23 +578,10 @@ at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.base/java.util.Objects.requireNonNull(Objects.java:233)
-at java.base/java.util.ImmutableCollections$Map1.<init>(ImmutableCollections.java:1112)
-at java.base/java.util.Map.of(Map.java:1365)
-at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
-at stepdefinitions.Common_Step_Def.login(Common_Step_Def.java:20)
-at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@361c294e]" started-at="2024-03-13T19:49:59 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T19:50:13 EDT" duration-ms="13951" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@585811a4]" started-at="2024-03-13T20:04:08 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T20:04:36 EDT" duration-ms="27993" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1049,23 +594,10 @@ at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.base/java.util.Objects.requireNonNull(Objects.java:233)
-at java.base/java.util.ImmutableCollections$Map1.<init>(ImmutableCollections.java:1112)
-at java.base/java.util.Map.of(Map.java:1365)
-at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
-at stepdefinitions.Common_Step_Def.login(Common_Step_Def.java:20)
-at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@361c294e]" started-at="2024-03-13T19:49:59 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T19:50:07 EDT" duration-ms="7591" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@585811a4]" started-at="2024-03-13T20:04:09 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T20:04:35 EDT" duration-ms="26459" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1078,23 +610,10 @@ at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.base/java.util.Objects.requireNonNull(Objects.java:233)
-at java.base/java.util.ImmutableCollections$Map1.<init>(ImmutableCollections.java:1112)
-at java.base/java.util.Map.of(Map.java:1365)
-at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
-at stepdefinitions.Common_Step_Def.login(Common_Step_Def.java:20)
-at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@361c294e]" started-at="2024-03-13T19:50:00 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T19:50:14 EDT" duration-ms="13769" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@585811a4]" started-at="2024-03-13T20:04:09 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T20:04:35 EDT" duration-ms="26307" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1107,23 +626,10 @@ at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.base/java.util.Objects.requireNonNull(Objects.java:233)
-at java.base/java.util.ImmutableCollections$Map1.<init>(ImmutableCollections.java:1112)
-at java.base/java.util.Map.of(Map.java:1365)
-at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
-at stepdefinitions.Common_Step_Def.login(Common_Step_Def.java:20)
-at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@361c294e]" started-at="2024-03-13T19:50:07 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T19:50:14 EDT" duration-ms="7151" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@585811a4]" started-at="2024-03-13T20:04:09 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T20:04:36 EDT" duration-ms="26925" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1136,23 +642,10 @@ at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.base/java.util.Objects.requireNonNull(Objects.java:233)
-at java.base/java.util.ImmutableCollections$Map1.<init>(ImmutableCollections.java:1112)
-at java.base/java.util.Map.of(Map.java:1365)
-at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
-at stepdefinitions.Common_Step_Def.login(Common_Step_Def.java:20)
-at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@361c294e]" started-at="2024-03-13T19:50:07 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T19:50:13 EDT" duration-ms="6450" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@585811a4]" started-at="2024-03-13T20:04:10 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T20:04:35 EDT" duration-ms="24951" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1165,23 +658,10 @@ at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.base/java.util.Objects.requireNonNull(Objects.java:233)
-at java.base/java.util.ImmutableCollections$Map1.<init>(ImmutableCollections.java:1112)
-at java.base/java.util.Map.of(Map.java:1365)
-at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
-at stepdefinitions.Common_Step_Def.login(Common_Step_Def.java:20)
-at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@361c294e]" started-at="2024-03-13T19:50:07 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T19:50:14 EDT" duration-ms="7678" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@585811a4]" started-at="2024-03-13T20:04:13 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T20:04:36 EDT" duration-ms="22653" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1194,23 +674,10 @@ at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.base/java.util.Objects.requireNonNull(Objects.java:233)
-at java.base/java.util.ImmutableCollections$Map1.<init>(ImmutableCollections.java:1112)
-at java.base/java.util.Map.of(Map.java:1365)
-at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
-at stepdefinitions.Common_Step_Def.login(Common_Step_Def.java:20)
-at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@361c294e]" started-at="2024-03-13T19:50:07 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T19:50:13 EDT" duration-ms="6311" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@585811a4]" started-at="2024-03-13T20:04:16 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T20:04:35 EDT" duration-ms="19353" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1223,23 +690,10 @@ at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.base/java.util.Objects.requireNonNull(Objects.java:233)
-at java.base/java.util.ImmutableCollections$Map1.<init>(ImmutableCollections.java:1112)
-at java.base/java.util.Map.of(Map.java:1365)
-at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
-at stepdefinitions.Common_Step_Def.login(Common_Step_Def.java:20)
-at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@361c294e]" started-at="2024-03-13T19:50:07 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T19:50:18 EDT" duration-ms="10591" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@585811a4]" started-at="2024-03-13T20:04:21 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T20:04:53 EDT" duration-ms="32472" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1252,23 +706,10 @@ at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.base/java.util.Objects.requireNonNull(Objects.java:233)
-at java.base/java.util.ImmutableCollections$Map1.<init>(ImmutableCollections.java:1112)
-at java.base/java.util.Map.of(Map.java:1365)
-at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
-at stepdefinitions.Common_Step_Def.login(Common_Step_Def.java:20)
-at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@361c294e]" started-at="2024-03-13T19:50:07 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T19:50:22 EDT" duration-ms="15376" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@585811a4]" started-at="2024-03-13T20:04:29 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T20:04:35 EDT" duration-ms="6483" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1281,23 +722,10 @@ at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.base/java.util.Objects.requireNonNull(Objects.java:233)
-at java.base/java.util.ImmutableCollections$Map1.<init>(ImmutableCollections.java:1112)
-at java.base/java.util.Map.of(Map.java:1365)
-at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
-at stepdefinitions.Common_Step_Def.login(Common_Step_Def.java:20)
-at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@361c294e]" started-at="2024-03-13T19:50:07 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T19:50:14 EDT" duration-ms="6450" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@585811a4]" started-at="2024-03-13T20:04:29 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T20:04:39 EDT" duration-ms="10538" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1310,23 +738,10 @@ at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.base/java.util.Objects.requireNonNull(Objects.java:233)
-at java.base/java.util.ImmutableCollections$Map1.<init>(ImmutableCollections.java:1112)
-at java.base/java.util.Map.of(Map.java:1365)
-at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
-at stepdefinitions.Common_Step_Def.login(Common_Step_Def.java:20)
-at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@361c294e]" started-at="2024-03-13T19:50:07 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T19:50:14 EDT" duration-ms="6134" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@585811a4]" started-at="2024-03-13T20:04:35 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T20:04:55 EDT" duration-ms="19479" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1339,23 +754,10 @@ at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.base/java.util.Objects.requireNonNull(Objects.java:233)
-at java.base/java.util.ImmutableCollections$Map1.<init>(ImmutableCollections.java:1112)
-at java.base/java.util.Map.of(Map.java:1365)
-at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
-at stepdefinitions.Common_Step_Def.login(Common_Step_Def.java:20)
-at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@361c294e]" started-at="2024-03-13T19:50:13 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T19:50:29 EDT" duration-ms="16300" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@585811a4]" started-at="2024-03-13T20:04:35 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T20:05:15 EDT" duration-ms="40088" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1368,23 +770,10 @@ at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.base/java.util.Objects.requireNonNull(Objects.java:233)
-at java.base/java.util.ImmutableCollections$Map1.<init>(ImmutableCollections.java:1112)
-at java.base/java.util.Map.of(Map.java:1365)
-at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
-at stepdefinitions.Common_Step_Def.login(Common_Step_Def.java:20)
-at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@361c294e]" started-at="2024-03-13T19:50:13 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T19:50:29 EDT" duration-ms="16118" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@585811a4]" started-at="2024-03-13T20:04:35 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T20:05:03 EDT" duration-ms="27969" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1397,23 +786,10 @@ at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.base/java.util.Objects.requireNonNull(Objects.java:233)
-at java.base/java.util.ImmutableCollections$Map1.<init>(ImmutableCollections.java:1112)
-at java.base/java.util.Map.of(Map.java:1365)
-at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
-at stepdefinitions.Common_Step_Def.login(Common_Step_Def.java:20)
-at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@361c294e]" started-at="2024-03-13T19:50:13 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T19:50:25 EDT" duration-ms="12220" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@585811a4]" started-at="2024-03-13T20:04:35 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T20:05:05 EDT" duration-ms="29649" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1426,23 +802,10 @@ at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.base/java.util.Objects.requireNonNull(Objects.java:233)
-at java.base/java.util.ImmutableCollections$Map1.<init>(ImmutableCollections.java:1112)
-at java.base/java.util.Map.of(Map.java:1365)
-at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
-at stepdefinitions.Common_Step_Def.login(Common_Step_Def.java:20)
-at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@361c294e]" started-at="2024-03-13T19:50:14 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T19:50:29 EDT" duration-ms="15891" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@585811a4]" started-at="2024-03-13T20:04:35 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T20:04:53 EDT" duration-ms="17550" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1455,23 +818,10 @@ at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.base/java.util.Objects.requireNonNull(Objects.java:233)
-at java.base/java.util.ImmutableCollections$Map1.<init>(ImmutableCollections.java:1112)
-at java.base/java.util.Map.of(Map.java:1365)
-at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
-at stepdefinitions.Common_Step_Def.login(Common_Step_Def.java:20)
-at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@361c294e]" started-at="2024-03-13T19:50:14 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T19:50:21 EDT" duration-ms="7326" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@585811a4]" started-at="2024-03-13T20:04:36 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T20:05:13 EDT" duration-ms="37423" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1484,23 +834,10 @@ at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.base/java.util.Objects.requireNonNull(Objects.java:233)
-at java.base/java.util.ImmutableCollections$Map1.<init>(ImmutableCollections.java:1112)
-at java.base/java.util.Map.of(Map.java:1365)
-at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
-at stepdefinitions.Common_Step_Def.login(Common_Step_Def.java:20)
-at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@361c294e]" started-at="2024-03-13T19:50:14 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T19:50:20 EDT" duration-ms="6264" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@585811a4]" started-at="2024-03-13T20:04:36 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T20:05:05 EDT" duration-ms="29088" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1513,23 +850,10 @@ at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.base/java.util.Objects.requireNonNull(Objects.java:233)
-at java.base/java.util.ImmutableCollections$Map1.<init>(ImmutableCollections.java:1112)
-at java.base/java.util.Map.of(Map.java:1365)
-at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
-at stepdefinitions.Common_Step_Def.login(Common_Step_Def.java:20)
-at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@361c294e]" started-at="2024-03-13T19:50:14 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T19:50:21 EDT" duration-ms="6687" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@585811a4]" started-at="2024-03-13T20:04:36 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T20:04:56 EDT" duration-ms="19926" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1542,23 +866,10 @@ at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.base/java.util.Objects.requireNonNull(Objects.java:233)
-at java.base/java.util.ImmutableCollections$Map1.<init>(ImmutableCollections.java:1112)
-at java.base/java.util.Map.of(Map.java:1365)
-at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
-at stepdefinitions.Common_Step_Def.login(Common_Step_Def.java:20)
-at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@361c294e]" started-at="2024-03-13T19:50:14 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T19:50:21 EDT" duration-ms="6892" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@585811a4]" started-at="2024-03-13T20:04:39 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T20:04:56 EDT" duration-ms="16350" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1571,23 +882,10 @@ at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.base/java.util.Objects.requireNonNull(Objects.java:233)
-at java.base/java.util.ImmutableCollections$Map1.<init>(ImmutableCollections.java:1112)
-at java.base/java.util.Map.of(Map.java:1365)
-at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
-at stepdefinitions.Common_Step_Def.login(Common_Step_Def.java:20)
-at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@361c294e]" started-at="2024-03-13T19:50:18 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T19:50:21 EDT" duration-ms="3513" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@585811a4]" started-at="2024-03-13T20:04:53 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T20:05:16 EDT" duration-ms="23058" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1600,23 +898,10 @@ at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.base/java.util.Objects.requireNonNull(Objects.java:233)
-at java.base/java.util.ImmutableCollections$Map1.<init>(ImmutableCollections.java:1112)
-at java.base/java.util.Map.of(Map.java:1365)
-at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
-at stepdefinitions.Common_Step_Def.login(Common_Step_Def.java:20)
-at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@361c294e]" started-at="2024-03-13T19:50:20 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T19:50:26 EDT" duration-ms="6212" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@585811a4]" started-at="2024-03-13T20:04:53 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T20:05:06 EDT" duration-ms="12911" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1629,23 +914,10 @@ at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.base/java.util.Objects.requireNonNull(Objects.java:233)
-at java.base/java.util.ImmutableCollections$Map1.<init>(ImmutableCollections.java:1112)
-at java.base/java.util.Map.of(Map.java:1365)
-at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
-at stepdefinitions.Common_Step_Def.login(Common_Step_Def.java:20)
-at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@361c294e]" started-at="2024-03-13T19:50:21 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T19:50:25 EDT" duration-ms="4648" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@585811a4]" started-at="2024-03-13T20:04:55 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T20:05:15 EDT" duration-ms="20679" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1658,23 +930,10 @@ at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.base/java.util.Objects.requireNonNull(Objects.java:233)
-at java.base/java.util.ImmutableCollections$Map1.<init>(ImmutableCollections.java:1112)
-at java.base/java.util.Map.of(Map.java:1365)
-at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
-at stepdefinitions.Common_Step_Def.login(Common_Step_Def.java:20)
-at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@361c294e]" started-at="2024-03-13T19:50:21 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T19:50:29 EDT" duration-ms="8069" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@585811a4]" started-at="2024-03-13T20:04:56 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T20:05:16 EDT" duration-ms="20249" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1687,23 +946,10 @@ at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.base/java.util.Objects.requireNonNull(Objects.java:233)
-at java.base/java.util.ImmutableCollections$Map1.<init>(ImmutableCollections.java:1112)
-at java.base/java.util.Map.of(Map.java:1365)
-at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
-at stepdefinitions.Common_Step_Def.login(Common_Step_Def.java:20)
-at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@361c294e]" started-at="2024-03-13T19:50:21 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T19:50:28 EDT" duration-ms="6826" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@585811a4]" started-at="2024-03-13T20:04:56 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T20:05:06 EDT" duration-ms="10023" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1716,23 +962,10 @@ at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.base/java.util.Objects.requireNonNull(Objects.java:233)
-at java.base/java.util.ImmutableCollections$Map1.<init>(ImmutableCollections.java:1112)
-at java.base/java.util.Map.of(Map.java:1365)
-at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
-at stepdefinitions.Common_Step_Def.login(Common_Step_Def.java:20)
-at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@361c294e]" started-at="2024-03-13T19:50:21 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T19:50:26 EDT" duration-ms="5077" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@585811a4]" started-at="2024-03-13T20:05:03 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T20:05:16 EDT" duration-ms="12400" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1745,23 +978,10 @@ at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.base/java.util.Objects.requireNonNull(Objects.java:233)
-at java.base/java.util.ImmutableCollections$Map1.<init>(ImmutableCollections.java:1112)
-at java.base/java.util.Map.of(Map.java:1365)
-at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
-at stepdefinitions.Common_Step_Def.login(Common_Step_Def.java:20)
-at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@361c294e]" started-at="2024-03-13T19:50:22 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T19:50:29 EDT" duration-ms="6873" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@585811a4]" started-at="2024-03-13T20:05:05 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T20:05:16 EDT" duration-ms="10852" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1774,23 +994,10 @@ at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.base/java.util.Objects.requireNonNull(Objects.java:233)
-at java.base/java.util.ImmutableCollections$Map1.<init>(ImmutableCollections.java:1112)
-at java.base/java.util.Map.of(Map.java:1365)
-at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
-at stepdefinitions.Common_Step_Def.login(Common_Step_Def.java:20)
-at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@361c294e]" started-at="2024-03-13T19:50:25 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T19:50:29 EDT" duration-ms="3881" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@585811a4]" started-at="2024-03-13T20:05:05 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T20:05:16 EDT" duration-ms="10722" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1803,23 +1010,10 @@ at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.base/java.util.Objects.requireNonNull(Objects.java:233)
-at java.base/java.util.ImmutableCollections$Map1.<init>(ImmutableCollections.java:1112)
-at java.base/java.util.Map.of(Map.java:1365)
-at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
-at stepdefinitions.Common_Step_Def.login(Common_Step_Def.java:20)
-at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@361c294e]" started-at="2024-03-13T19:50:25 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T19:50:29 EDT" duration-ms="3897" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@585811a4]" started-at="2024-03-13T20:05:06 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T20:05:16 EDT" duration-ms="9811" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1832,23 +1026,10 @@ at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.base/java.util.Objects.requireNonNull(Objects.java:233)
-at java.base/java.util.ImmutableCollections$Map1.<init>(ImmutableCollections.java:1112)
-at java.base/java.util.Map.of(Map.java:1365)
-at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
-at stepdefinitions.Common_Step_Def.login(Common_Step_Def.java:20)
-at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@361c294e]" started-at="2024-03-13T19:50:26 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T19:50:29 EDT" duration-ms="3196" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@585811a4]" started-at="2024-03-13T20:05:06 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-13T20:05:15 EDT" duration-ms="9218" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1861,23 +1042,10 @@ at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.base/java.util.Objects.requireNonNull(Objects.java:233)
-at java.base/java.util.ImmutableCollections$Map1.<init>(ImmutableCollections.java:1112)
-at java.base/java.util.Map.of(Map.java:1365)
-at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
-at stepdefinitions.Common_Step_Def.login(Common_Step_Def.java:20)
-at app_hooks.App_Hooks.setUp(App_Hooks.java:40)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.TestNGRunner@361c294e]" started-at="2024-03-13T19:50:29 EDT" name="tearDownClass" finished-at="2024-03-13T19:50:29 EDT" duration-ms="35" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.TestNGRunner@585811a4]" started-at="2024-03-13T20:05:16 EDT" name="tearDownClass" finished-at="2024-03-13T20:05:16 EDT" duration-ms="533" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
